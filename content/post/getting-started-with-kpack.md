@@ -16,7 +16,11 @@ categories:
 
 ## Prep.
 
-Prepare a conformant kubernetes cluster. Optionally install ```stern```
+Prepare a conformant kubernetes cluster. Deploy kpack first. Then, optionally install ```stern```
+
+```sh
+kubectl apply -f https://github.com/pivotal/kpack/releases/download/v0.4.0/release-0.4.0.yaml
+```
 ## Step 1. 
 
 ```sh
