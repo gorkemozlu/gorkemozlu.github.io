@@ -9,7 +9,7 @@ categories:
   - "kpack"
   - "build"
   - "development"
-
+thumbnail: img/kpack.png
 ---
 Last time we built an image with kpack. This time we'll be updating the image without hassle.
 <!--more-->

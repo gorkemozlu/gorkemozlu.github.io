@@ -9,7 +9,7 @@ categories:
   - "kpack"
   - "build"
   - "development"
-
+thumbnail: img/kpack.png
 ---
 ```kpack``` is a K8s-native Way to Build and Update Containers.
 <!--more-->
