@@ -20,7 +20,7 @@ Prepare a conformant kubernetes cluster. Optionally install ```stern```
 ## Step 1. 
 
 ```sh
-kubectl apply -f secret.yaml
+$ kubectl apply -f secret.yaml
 ```
 
 ```yaml
@@ -39,7 +39,7 @@ stringData:
 ## Step 2. 
 
 ```sh
-kubectl apply -f sa.yaml
+$ kubectl apply -f sa.yaml
 ```
 ```yaml
 apiVersion: v1
@@ -55,7 +55,7 @@ imagePullSecrets:
 ## Step 3. ClusterStore
 
 ```sh
-kubectl apply -f clusterstore.yaml
+$ kubectl apply -f clusterstore.yaml
 ```
 
 ```yaml
@@ -71,7 +71,7 @@ spec:
 ## Step 4. ClusterStack
 
 ```sh
-kubectl apply -f clusterstack.yaml
+$ kubectl apply -f clusterstack.yaml
 ```
 
 ```yaml
@@ -89,7 +89,7 @@ spec:
 ## Step 4. Builder
 
 ```sh
-kubectl apply -f builder.yaml
+$ kubectl apply -f builder.yaml
 ```
 
 ```yaml
@@ -115,7 +115,7 @@ spec:
 ## Step 4. Image
 
 ```sh
-kubectl apply -f image.yaml
+$ kubectl apply -f image.yaml
 ```
 
 ```yaml
@@ -137,21 +137,32 @@ spec:
 ```
 
 ```terminal
-kubectl get images
+$ kubectl get images
 NAME              LATESTIMAGE   READY
 petclinic-image                 Unknown
 ```
 ```terminal
-kubectl get pods
+$ kubectl get pods
 NAME                                READY   STATUS     RESTARTS   AGE
 petclinic-image-build-1-build-pod   0/1     Init:0/6   0          15s
 ```
 ```terminal
-stern -n default petclinic-image-build-1-build-pod
-
+$ stern -n default petclinic-image-build-1-build-pod
 ```
 ```terminal
-kubectl get pods
+$ kubectl get pods
 NAME                                READY   STATUS      RESTARTS   AGE
 petclinic-image-build-1-build-pod   0/1     Completed   0          9m
+```
+```terminal
+$ kubectl get images
+NAME              LATESTIMAGE                                                                                                  READY
+petclinic-image   index.docker.io/bgorkemozlu/public@sha256:fadd73872877c763dce77b4df8f9b693323540657ba823fdd2eff329e9f120ab   True
+```
+```terminal
+$ kubectl create deployment kpack-demo --image=index.docker.io/bgorkemozlu/public@sha256:fadd73872877c763dce77b4df8f9b693323540657ba823fdd2eff329e9f120ab
+deployment.apps/kpack-demo created
+$ kubectl expose deployment kpack-demo --port=8080
+service/kpack-demo exposed
+$ kubectl port-forward svc/kpack-demo 8080:8080
 ```
