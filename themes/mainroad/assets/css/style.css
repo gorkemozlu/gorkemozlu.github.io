@@ -1034,7 +1034,7 @@ textarea:hover {
 input[type=submit],
 input[type=reset] {
 	display: inline-block;
-	min-width: 150px;
+	min-width: 100px;
 	padding: 10px 15px;
 	font-weight: 700;
 	color: #fff;
