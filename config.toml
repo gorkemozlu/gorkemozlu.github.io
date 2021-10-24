@@ -20,7 +20,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   pager = true
   post_meta = ["date", "categories"] # Order of post meta information
   mainSections = ["post", "blog", "news"]
-  dateformat = "01--2006"
+  dateformat = "2006-01-02"
 
 [Params.logo]
   subtitle = "Yet Another Cloud Native Blog" # Logo subtitle
