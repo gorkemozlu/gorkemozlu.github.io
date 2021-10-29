@@ -1,4 +1,4 @@
-baseurl = "https://gorkemozlu.github.io"
+baseurl = "https://gorkemozlu.com"
 title = "Gorkem Ozlu - Yet Another Cloud Native Blog"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
