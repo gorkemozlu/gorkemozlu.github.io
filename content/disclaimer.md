@@ -4,7 +4,7 @@ date: 2021-10-24
 authorbox: false
 menu: ["main", "side", "footer"]
 ---
-All the information on this website – https://gorkemozlo.github.io/ – is published in good faith and for general information purpose only. This blog does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website , is strictly at your own risk. This blog will not be liable for any losses and/or damages in connection with the use of our website. Our Disclaimer was generated with the help of the Disclaimer Generator and the Terms and Conditions Template.
+All the information on this website – https://gorkemozlu.com/ – is published in good faith and for general information purpose only. This blog does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website , is strictly at your own risk. This blog will not be liable for any losses and/or damages in connection with the use of our website. Our Disclaimer was generated with the help of the Disclaimer Generator and the Terms and Conditions Template.
 
 From our website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone ‘bad’.
 
