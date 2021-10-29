@@ -1,6 +1,6 @@
 ---
 title: Getting Started with kpack
-date: 2021-10-24
+date: 2021-10-23
 tags:
   - "kpack"
   - "build"

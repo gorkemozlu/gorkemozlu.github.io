@@ -1,5 +1,5 @@
 ---
-title: Continue with kpack
+title: Updating images with kpack
 date: 2021-10-24
 tags:
   - "kpack"
