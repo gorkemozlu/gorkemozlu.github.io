@@ -1,6 +1,6 @@
 ---
 title: Operations on Tanzu Community Edition
-date: 2021-10-30
+date: "2021-10-30T00:00:00+03:00"
 tags:
   - "Tanzu"
   - "TCE"
