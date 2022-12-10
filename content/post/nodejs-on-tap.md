@@ -15,7 +15,7 @@ categories:
   - "TAP"
   - "NodeJS"
   - "Data"
-thumbnail: img/kpack.png
+thumbnail: img/01-acc-01.png
 ---
 
 Tanzu Application Service is a platform for building and running modern applications. It is built on top of Kubernetes and provides a range of tools and services for building, deploying, and managing applications. It allows developers to focus on writing code, while the platform handles the underlying infrastructure and support for scaling and rolling out applications. It also provides a variety of services and integrations for building and deploying applications, such as databases, messaging systems, and other common building blocks for modern applications.
