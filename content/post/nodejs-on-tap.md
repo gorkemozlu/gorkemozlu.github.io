@@ -32,8 +32,6 @@ This NodeJS application has multiple capabilities like:
   - MySQL
   - PostgreSQL
 
-![image info](/img/nodejs-on-tap/01-acc-01.png)
-
 As a developer, i'll go through my application catalog and choose my project which is "Sample NodeJS App with Data Bindings"
 
 Then it will ask me several options.
