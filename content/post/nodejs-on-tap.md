@@ -86,7 +86,7 @@ Also, we can see my k8s resources of that application and check pod logs etc fro
 
 On top of that, we can see the application's architecture, like , what are the dependencies i have or what APIs do i have, etc.
 
-![Alt text](/img/nodejs-on-tap/19-tap-gui-02.png.png?raw=true "tap-gui")
+![Alt text](/img/nodejs-on-tap/19-tap-gui-02.png?raw=true "tap-gui")
 
 After i access to endpoint of the application, i can see that TAP App-SSO is asking my credentials. After logging in, app is ready to use with data bindings.
 
