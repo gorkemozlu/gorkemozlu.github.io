@@ -15,7 +15,7 @@ categories:
   - "TAP"
   - "NodeJS"
   - "Data"
-thumbnail: img/nodejs-on-tap/01-acc-01.png
+thumbnail: img/nodejs-on-tap/19-tap-gui-02.png
 ---
 On this post, we'll go through a high level experience with a NodeJS app on Tanzu Application Platform. We're going to cover attaching Data Services on top of NodeJS app as well.
 <!--more-->
@@ -79,12 +79,16 @@ And, we'll see that source code and image has been scanned part of pipeline. It 
 ![Alt text](/img/nodejs-on-tap/10-workload-02.png?raw=true "workload")
 
 And a result, we can see that app is deployed through the pipeline.
-
+s
 ![Alt text](/img/nodejs-on-tap/11-workload-03.png?raw=true "workload")
 
-Also, i can see my k8s resources of that application and check pod logs etc from GUI.
+Also, we can see my k8s resources of that application and check pod logs etc from GUI.
 
 ![Alt text](/img/nodejs-on-tap/12-tap-gui-01.png?raw=true "tap-gui")
+
+On top of that, we can see the application's architecture, like , what are the dependencies i have or what APIs do i have, etc.
+
+![Alt text](/img/nodejs-on-tap/19-tap-gui-02.png.png?raw=true "tap-gui")
 
 After i access to endpoint of the application, i can see that TAP App-SSO is asking my credentials. After logging in, app is ready to use with data bindings.
 
