@@ -32,6 +32,8 @@ This NodeJS application has multiple capabilities like:
   - MySQL
   - PostgreSQL
 
+Before we start, you can find all the post content and more on my git repo: https://github.com/gorkemozlu/sample-nodejs-app
+
 As a developer, i'll go through my application catalog and choose my project which is "Sample NodeJS App with Data Bindings"
 
 Then it will ask me several options.
